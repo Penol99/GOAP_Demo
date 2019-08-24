@@ -23,7 +23,7 @@ public class GA_get_knife : Scr_goap_action
     public override bool PerformAction()
     {
         m_navAgent.SetDestination(m_target.transform.position);
-        if (DistanceCheckObject(m_target.transform, m_goapAgent.m_minRange - 1))
+        if (DistanceCheckObject(m_target.transform, m_goapAgent.m_minRange+1))
         {
             return m_target.Interact(m_goapAgent as Scr_goap_agent_bert);
         }

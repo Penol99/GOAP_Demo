@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/scn_title_screen.unity
     guid: b5bd0aa2c51aa8e42a34b74da1a0a865
   - enabled: 1
+    path: Assets/Scenes/scn_tutorial.unity
+    guid: 9d72d0b3f62abd140a449269c0057d48
+  - enabled: 1
     path: Assets/Scenes/scn_home.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
   - enabled: 1

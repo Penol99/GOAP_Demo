@@ -109,6 +109,7 @@
     <Compile Include="Assets\Resources\Scripts\UI\Scr_ui_start_plan.cs" />
     <Compile Include="Assets\Resources\Scripts\UI\Scr_ui_text_manager.cs" />
     <Compile Include="Assets\Resources\Scripts\UI\Scr_ui_title_screen.cs" />
+    <Compile Include="Assets\Resources\Scripts\UI\Scr_ui_tutorial.cs" />
     <Compile Include="Assets\Resources\Scripts\UI\Scr_ui_warning.cs" />
     <Compile Include="Assets\Resources\Scripts\UI\Scr_ui_warning_text.cs" />
     <None Include="Assets\TextMesh Pro\Resources\Shaders\TMP_SDF-Surface-Mobile.shader" />

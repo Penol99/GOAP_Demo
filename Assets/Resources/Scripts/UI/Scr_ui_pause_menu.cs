@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class Scr_ui_pause_menu : MonoBehaviour
 {
     public GameObject m_holder;
@@ -53,6 +53,18 @@ public class Scr_ui_pause_menu : MonoBehaviour
         m_spawnPanel.SetActive(m_spawnPanelWasActive);
         m_startPlanPanel.SetActive(m_startPlanWasActive);
         Time.timeScale = 1f;
+    }
+
+    public void Restart()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("scn_home");
+    }
+
+    public void QuitToTitle()
+    {
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("scn_title_screen");
     }
 
     public void ExitGame()
